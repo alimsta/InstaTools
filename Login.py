@@ -7,7 +7,7 @@ def login():
         username = ''#str(input("Enter username: "))
         pwd = ''#str(input("Enter password: "))
         #Can use this link to find UserID: https://smashballoon.com/instagram-feed/find-instagram-user-id/
-        user_id = 230178379 #int(input("Enter User ID: "))
+        user_id = #int(input("Enter User ID: "))
         API = InstagramAPI(username,pwd)
         return [API.login(force=False), user_id, API]
 
